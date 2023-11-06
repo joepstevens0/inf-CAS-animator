@@ -1,0 +1,72 @@
+-- Mouse cam
+To use: enable checkbox "mouse cam" (default on)
+Hold right click and move mouse to rotate around center. Scroll to zoom in on center.
+
+
+-- STORE AND LOAD
+store: will store de current channeldata to a file channels.txt in de current directory
+load: will load channeldata from a file channels.txt. File has to be in the same directory as executable
+reset: remove all channels
+
+-- PLAYBACK
+Press "Start" and the animation will begin and "Stop" to stop the animation.
+Next to the start button is a counter for the current frame. Frame counter can be changed by clicking and dragging.
+Playback works only for the following channels:
+- step_ahead
+- virtual_camera
+
+-- Add channel
+Click the "Add" button to add a channel with the current channels settings next to the button. 
+Click button "virtual_camera" to change channel type.
+Change channelname with inputfield. Giving a channelname is optional.
+
+--- Channels:
+-- Virtual camera
+This channel creates a virtual camera path during the animation using keyframes. 
+Between keyframes a hermite curve is used as path.
+
+To change perspective to the camera of this channel:
+- "mouse cam" checkbox at the top needs to be off.
+- "enabled" checkbox for the channel needs to be on.
+- No other camera channel has the enabled checkbox on.
+
+add a keyframe to the channel by choosing a frame with the drag input and pressing "Add frame".
+Only 1 keyframe per frame is possible. Click a keyframe to view it. Following options will appear:
+- Camera position: change the camera position of the keyframe
+- Camera rotation: change the camera rotation of the keyframe
+- Ease in: if checked, the will be an ease in from last frame to this frame
+- Ease out: if checked, the will be an ease out from last frame to this frame
+- Control 1: start point tangent for the hermite curve path from last frame to this frame
+- Control 2: end point tangent for the hermite curve path from last frame to this frame
+- delete: delete this keyframe
+
+-- Background
+Adds a skybox to the scene. Skybox can be changed by changing the "path" variable. 
+At the "path" location skybox files need to be split in: top.jpg, bottom.jpg, back.jpg, front.jpg, left.jpg, right.jpg
+
+-- Step ahead
+This channel allows for freefrom deformation on an rectangle. 
+There are 8 control points and interpolation is used between keyframes.
+
+Adding keyframes is the same as virtual camera. Clicking a keyframe gives options:
+Object position: change the position of the object
+Objection rotation: change the rotation of the object
+C(0-7): change the position of the control point.
+
+-- Character animation
+This channels gives a skeleton and animates it with inverse kinematics.
+By checking the box "IK active", the left hand of the skeleton wil move to the box position using inverse kinematics.
+Box position and rotation can be changed. Skeleton position and scale can be changed.
+
+-- Special effect
+This channels give a long rectangle as surface. Above the surface paritcles will spawn. 
+Particles will move to the right with a constant speed. 
+Once particles hit the surface, particle-plane colision is used to calc new speed en direction.
+
+Options:
+- particle size: size of a paricle
+- min size: size the particle will have at the end of its life
+- spawn time: how often new particles are spawned
+- max particles: maximum amount of particles at any time
+- spawn per time: amount of particles spawned once it is time to spawn new ones
+- time to live: lifetime of a particle in seconds

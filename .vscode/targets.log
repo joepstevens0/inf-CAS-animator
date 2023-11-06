@@ -1,0 +1,366 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Dit is vrije programmatuur; zie de brontekst voor de kopieervoorwaarden.
+# Er is GEEN garantie; zelfs niet voor VERHANDELBAARHEID of
+# GESCHIKTHEID VOOR EEN BEPAALD DOEL.
+
+# Dit programma is gemaakt voor i386-pc-mingw32
+ 
+
+# Make-gegevensbank, weergegeven op Tue May 24 19:12:45 2022
+
+# Variabelen
+
+# automatisch
+<D = $(patsubst %/,%,$(dir $<))
+# automatisch
+?F = $(notdir $?)
+# makefile (van 'makefile', regel 6)
+SRC = src
+# makefile
+MAKEFLAGS = Rrqp
+# omgeving
+VSCODE_LOG_NATIVE = false
+# makefile (van 'makefile', regel 11)
+TARGET = $(BUILD_DIR)/a.exe
+# automatisch
+?D = $(patsubst %/,%,$(dir $?))
+# automatisch
+@D = $(patsubst %/,%,$(dir $@))
+# omgeving
+HOMEDRIVE = C:
+# automatisch
+@F = $(notdir $@)
+# automatisch
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/joeps/Desktop/cas
+# standaard
+SHELL := sh.exe
+# makefile (van 'makefile', regel 5)
+BIN = bin
+# omgeving
+WINDIR = C:\WINDOWS
+# omgeving
+VSCODE_NLS_CONFIG = {"locale":"nl","availableLanguages":{},"_languagePackSupport":true}
+# omgeving
+VBOX_MSI_INSTALL_PATH = C:\pg\virtual machine\
+# makefile (van 'makefile', regel 3)
+CFLAGS = -g -Wall
+# omgeving
+ONEDRIVE = C:\Users\joeps\OneDrive
+# omgeving
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (van 'makefile', regel 1)
+MAKEFILE_LIST :=  makefile
+# omgeving
+TMP = C:\Users\joeps\AppData\Local\Temp
+# makefile (van 'makefile', regel 12)
+OBJ_DIR = $(BUILD_DIR)\obj
+# omgeving
+VSCODE_VERBOSE_LOGGING = true
+# omgeving
+PROGRAMW6432 = C:\Program Files
+# omgeving
+PROGRAMDATA = C:\ProgramData
+# omgeving
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0ed07ae9-3e57-4fac-97a8-cd776303c7e6-sock
+# omgeving
+VSCODE_CWD = C:\Users\joeps\Desktop\cas
+# omgeving
+PATH = C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\VulkanSDK\1.2.135.0\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\pg\mingw\bin;C:\pg\nodejs\;C:\pg\git\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\ZeroTier\One\;C:\pg\process lasso\;C:\Users\joeps\.cargo\bin;C:\Users\joeps\AppData\Local\Microsoft\WindowsApps;C:\pg\vscode\Microsoft VS Code\bin;C:\Users\joeps\AppData\Local\GitHubDesktop\bin;C:\pg\python;C:\Users\joeps\AppData\Roaming\npm;C:\Users\joeps\AppData\Local\Microsoft\WindowsApps;C:\pg\qt\Tools\mingw730_64\bin;C:\pg\cmake\bin;C:\pg\gnu\GnuWin32\bin;
+# omgeving
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# omgeving
+PROCESSOR_ARCHITECTURE = x86
+# omgeving
+USERPROFILE = C:\Users\joeps
+# omgeving
+OCL_ROOT = C:\Users\joeps\Desktop\New folder\OCL_SDK_Light
+# omgeving
+ALLUSERSPROFILE = C:\ProgramData
+# omgeving
+VSCODE_LOG_STACK = false
+# omgeving
+NUMBER_OF_PROCESSORS = 12
+# omgeving
+ELECTRON_RUN_AS_NODE = 1
+# standaard
+.FEATURES := target-specific order-only second-expansion else-if archives
+# omgeving
+VK_SDK_PATH = C:\VulkanSDK\1.2.135.0
+# automatisch
+%F = $(notdir $%)
+# omgeving
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3372_WRPNHENZVXNKKCVK
+# omgeving
+VSCODE_PIPE_LOGGING = true
+# omgeving
+COMPUTERNAME = JOEP-DESKTOP
+# omgeving
+PROGRAMFILES = C:\Program Files (x86)
+# omgeving
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# omgeving
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# omgeving
+USERNAME = joeps
+# omgeving
+PUBLIC = C:\Users\Public
+# omgeving
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# omgeving
+VSCODE_CODE_CACHE_PATH = C:\Users\joeps\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# omgeving
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# omgeving
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# omgeving
+LOGONSERVER = \\JOEP-DESKTOP
+# omgeving
+ONEDRIVECONSUMER = C:\Users\joeps\OneDrive
+# omgeving
+VSCODE_HANDLES_U 
+NCAUGHT_ERRORS = true
+# omgeving
+USERDOMAIN = JOEP-DESKTOP
+# standaard
+MAKE = $(MAKE_COMMAND)
+# standaard
+MAKECMDGOALS := all
+# makefile (van 'makefile', regel 10)
+BUILD_DIR = build
+# standaard
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := run
+# makefile (van 'makefile', regel 7)
+INCLUDE = -Iinclude -Isrc/util -Isrc/imgui -Isrc
+# omgeving
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatisch
+%D = $(patsubst %/,%,$(dir $%))
+# omgeving
+LOCALAPPDATA = C:\Users\joeps\AppData\Local
+# omgeving
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# standaard
+MAKE_COMMAND := make.exe
+# omgeving
+PROCESSOR_ARCHITEW6432 = AMD64
+# standaard
+.VARIABLES := 
+# automatisch
+*F = $(notdir $*)
+# omgeving
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+# omgeving
+OS = Windows_NT
+# omgeving
+VSCODE_IPC_HOOK = \\.\pipe\57a881d64cdb36eb765352b2a91b329c-1.67.2-main-sock
+# omgeving
+HOMEPATH = \Users\joeps
+# omgeving
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# omgeving
+PROMPT = $P$G
+# omgeving
+MFLAGS = -Rrqp
+# automatisch
+*D = $(patsubst %/,%,$(dir $*))
+# omgeving
+SYSTEMROOT = C:\WINDOWS
+# automatisch
++D = $(patsubst %/,%,$(dir $+))
+# automatisch
++F = $(notdir $+)
+# omgeving
+APPDATA = C:\Users\joeps\AppData\Roaming
+# omgeving
+TEMP = C:\Users\joeps\AppData\Local\Temp
+# omgeving
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# standaard
+MAKEFILES := 
+# automatisch
+<F = $(notdir $<)
+# omgeving
+DXSDK_DIR = C:\pg\directx_sdk\
+# makefile (van 'makefile', regel 2)
+CXX = g++
+# omgeving
+LC_ALL = C
+# makefile (van 'makefile', regel 8)
+LIBS = -Llib/glfw3 -lopengl32
+# automatisch
+^F = $(notdir $^)
+# standaard
+SUFFIXES := 
+# omgeving
+SYSTEMDRIVE = C:
+# omgeving
+SESSIONNAME = Console
+# omgeving
+PROCESSOR_REVISION = 0802
+# omgeving
+MAKELEVEL := 0
+# omgeving
+VULKAN_SDK = C:\VulkanSDK\1.2.135.0
+# omgeving
+LANG = C
+# omgeving
+PROCESSOR_LEVEL = 23
+# omgeving
+VSCODE_PID = 3372
+# omgeving
+USERDOMAIN_ROAMINGPROFILE = JOEP-DESKTOP
+# variabele verzameling van hashtabel-statistieken:
+# Belasting=101/1024=10%, Rehash=0, Botsingen=10/126=8%
+
+# Patroonspecifieke variabelewaarden
+
+# Geen patroonspecifieke variabelewaarden
+
+# Mappen
+
+# C:\Users\joeps\.cargo\bin (sleutel C:/Users/joeps/.cargo/bin, wijzigingstijd 1643043615): 14 bestanden, geen onmogelijkheden.
+# C:\Program Files\Docker\Docker\resources\bin (sleutel C:/Program Files/Docker/Docker/resources/bin, wijzigingstijd 1614179169): 11 bestanden, geen onmogelijkheden.
+# C:\Users\joeps\AppData\Local\GitHubDesktop\bin (sleutel C:/Users/joeps/AppData/Local/GitHubDesktop/bin, wijzigingstijd 1587569173): 4 bestanden, geen onmogelijkheden.
+# C:\Users\joeps\AppData\Local\Microsoft\WindowsApps (sleutel C:/Users/joeps/AppData/Local/Microsoft/WindowsApps, wijzigingstijd 1649974762): 24 bestanden, geen onmogelijkheden.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (sleutel C:/WINDOWS/System32/WindowsPowerShell/v1.0/, wijzigingstijd 1615571546): 30 bestanden, geen onmogelijkheden.
+# C:\WINDOWS\System32\Wbem (sleutel C:/WINDOWS/System32/Wbem, wijzigingstijd 1652489651): 172 bestanden, geen onmogelijkheden.
+# . (sleutel c:/Users/joeps/Desktop/cas, wijzigingstijd 1653412333): 20 bestanden, geen onmogelijkheden.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (sleutel C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, wijzigingstijd 1620664038): 10 bestanden, geen onmogelijkheden.
+# C:\Program Files (x86)\ZeroTier\One\ (sleutel C:/Program Files (x86)/ZeroTier/One/, wijzigingstijd 1620292595): 9 bestanden, geen onmogelijkheden.
+# C:\pg\cmake\bin (sleutel C:/pg/cmake/bin, wijzigingstijd 1587127582): 7 bestanden, geen onmogelijkheden.
+# C:\pg\process lasso\ (sleutel C:/pg/process lasso/, wijzigingstijd 1636720116): 39 bestanden, geen onmogelijkheden.
+# C:\pg\vscode\Microsoft VS Code\bin (sleutel C:/pg/vscode/Microsoft VS Code/bin, wijzigingstijd 1652965102): 4 bestanden, geen onmogelijkheden.
+# C:\pg\gnu\GnuWin32\bin (sleutel C:/pg/gnu/GnuWin32/bin, wijzigingstijd 1646414422): 5 bestanden, geen onmogelijkheden.
+# kan status van C:\WINDOWS\System32\OpenSSH\ niet opvragen.
+# C:\pg\nodejs\ (sleutel C:/pg/nodejs/, wijzigingstijd 1604587649): 11 bestanden, geen onmogelijkheden.
+# C:\WINDOWS (sleutel C:/WINDOWS, wijzigingstijd 1650221714): 117 bestanden, geen onmogelijkheden.
+# C:\pg\git\Git\cmd (sleutel C:/pg/git/Git/cmd, wijzigingstijd 1604611776): 8 bestanden, geen onmogelijkheden.
+# C:\pg\qt\Tools\mingw730_64\bin (sleutel C:/pg/qt/Tools/mingw730_64/bin, wijzigingstijd 1586525583): 59 bestanden, geen onmogelijkheden.
+# C:\pg\python (sleutel C:/pg/python, wijzigingstijd 1600875302): 17 bestanden, geen onmogelijkheden.
+# kan status van C:\pg\mingw\bin niet opvragen.
+# C:\ProgramData\DockerDesktop\version-bin (sleutel C:/ProgramData/DockerDesktop/version-bin, wijzigingstijd 1614179745): 4 bestanden, geen onmogelijkheden.
+# C:\WINDOWS\system32 (sleutel C:/WINDOWS/system32, wijzigingstijd 1653387295): 3081 bestanden, geen onmogelijkheden.
+# C:\Users\joeps\AppData\Roaming\npm (sleutel C:/Users/joeps/AppData/Roaming/npm, wijzigingstijd 1608921992): 15 bestanden, geen onmogelijkheden.
+# C:\VulkanSDK\1.2.135.0\Bin (sleutel C:/VulkanSDK/1.2.135.0/Bin, wijzigingstijd 1587930898): 35 bestanden, geen onmogelijkheden.
+
+# 3696 bestanden, geen onmogelijkheden in 24 mappen.
+
+# Impliciete regels
+
+# Geen impliciete regels.
+
+# Bestanden
+
+# Geen doel:
+all:
+#  Doel afkomstig van opdrachtregel.
+#  Impliciete regel-zoekopdracht is uitgevoerd.
+#  Bestand bestaat niet.
+#  Bestand is niet bijgewerkt.
+# variabele verzameling van hashtabel-statistieken:
+# Belasting=0/32=0%, Rehash=0, Botsingen=0/0=0%
+
+# Geen doel:
+.DEFAULT:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+
+build_dir:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 21):
+	@if not exist "$(BUILD_DIR)" mkdir $(BUILD_DIR)
+	@if not exist "$(OBJ_DIR)" mkdir $(OBJ_DIR)
+	
+
+# Geen doel:
+makefile:
+#  Impliciete regel-zoekopdracht is uitgevoerd.
+#  Laatst gewijzigd 2022-05-24 19:11:50
+#  Bestand is bijgewerkt.
+#  Succesvol bijgewerkt.
+# variabele verzameling van hashtabel-statistieken:
+# Belasting=0/32=0%, Rehash=0, Botsingen=0/0=0%
+
+build: build_dir subfiles build\obj/main.o
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 18):
+	$(CXX) $(CFLAGS) $(LIBS) $(INCLUDE) -o $(TARGET) glfw3.dll glad.c $(OBJ_DIR)/*.o
+	
+
+subfiles:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 24):
+	@cd $(SRC)/animation && $(MAKE) --no-print-directory
+	@cd $(SRC)/imgui && $(MAKE) --no-print-directory
+	@cd $(SRC)/render && $(MAKE) --no-print-directory
+	@cd $(SRC)/channels && $(MAKE) --no-print-directory
+	@cd $(SRC)/app && $(MAKE) --no-print-directory
+	
+
+build\obj/main.o: src/main.cpp
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 31):
+	$(CXX) $(CFLAGS) $(LIBS) $(INCLUDE) -c $^ -o $@
+	
+
+# Geen doel:
+.SUFFIXES:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+
+run: build
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 15):
+	$(TARGET)
+	
+
+clean:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+#  uit te voeren opdrachten (van 'makefile', regel 34):
+	rmdir $(BUILD_DIR) /S/Q
+	
+
+# Geen doel:
+src/main.cpp:
+#  Impliciete regel-zoekopdracht is niet uitgevoerd.
+#  Wijzigingstijd is nooit gecontroleerd.
+#  Bestand is niet bijgewerkt.
+
+# hashtabel-statistieken van bestanden:
+# Belasting=11/1024=1%, Rehash=0, Botsingen=0/27=0%
+# VPATH-zoekpaden
+
+# Geen 'vpath'-zoekpaden.
+
+# Geen algemeen zoekpad ('VPATH'-variabele).
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Make-gegevensbank voltooid op Tue May 24 19:12:45 2022
+
+ 
+make.exe: *** Er is geen regel om doel 'all' te maken.  Gestopt.
+
